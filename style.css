@@ -1,0 +1,97 @@
+/* Stile generale del body */
+body {
+  font-family: sans-serif; /* Scegli un font sans-serif per una migliore leggibilità */
+  margin: 0; /* Rimuove i margini predefiniti del body */
+  padding: 20px; /* Aggiunge un po' di padding per separare il contenuto dai bordi */
+  background-color: #f0f0f0; /* Scegli un colore di sfondo chiaro e neutro */
+}
+
+/* Stile per l'intestazione (h1) */
+h1 {
+  text-align: center; /* Centra il testo dell'intestazione */
+  color: #333; /* Scegli un colore scuro per l'intestazione */
+}
+
+/* Stile per i paragrafi */
+p {
+  line-height: 1.6; /* Aumenta l'altezza della riga per migliorare la leggibilità */
+  margin-bottom: 20px; /* Aggiunge spazio tra i paragrafi */
+}
+
+/* Stile per il link nel repository GitHub */
+a {
+  color: #007bff; /* Scegli un colore blu per i link */
+  text-decoration: none; /* Rimuove la sottolineatura predefinita */
+}
+
+a:hover {
+  text-decoration: underline; /* Aggiunge una sottolineatura al passaggio del mouse */
+}
+
+/* Stile per il contenitore del form */
+.login-form {
+  width: 400px; /* Regola la larghezza del form */
+  margin: 50px auto; /* Centra il form orizzontalmente e verticalmente */
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5); /* Crea uno sfondo semitrasparente */
+  border-radius: 10px; /* Aggiungi angoli arrotondati al form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aggiungi un'ombra per un effetto 3D */
+}
+
+/* Stile per il titolo del form */
+.login-title {
+  text-align: center;
+  font-size: 2em;
+  color: #f0f0f0; /* Usa un colore chiaro per il contrasto */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Aggiungi un'ombra per un effetto 3D */
+}
+
+/* Stile per i gruppi di form (div con classe form-group) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Stile per le etichette (h5) */
+h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #f0f0f0; /* Usa un colore chiaro per il contrasto */
+}
+
+/* Stile per gli input */
+.nome-input,
+.password-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 1em;
+  transition: all 0.3s ease; /* Aggiungi una transizione per un effetto fluido */
+}
+
+/* Stile per gli input quando sono focalizzati */
+.nome-input:focus,
+.password-input:focus {
+  outline: none; /* Rimuove il bordo di focus predefinito */
+  border-color: #007bff; /* Cambia il colore del bordo quando focalizzato */
+  background-color: #fff; /* Cambia lo sfondo quando focalizzato */
+}
+
+/* Stile per il pulsante di invio */
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Cambia il cursore in un puntatore */
+  transition: background-color 0.3s ease; /* Aggiungi una transizione per un effetto fluido */
+}
+
+/* Stile per il pulsante di invio quando viene passato il mouse sopra */
+.submit-button:hover {
+  background-color: #0056b3; /* Cambia il colore di sfondo al passaggio del mouse */
+}
