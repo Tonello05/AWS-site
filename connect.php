@@ -2,7 +2,7 @@
 
 $dbhost = "localhost";
 $dbname = "utenti";
-$dbuser = "root";
+$dbuser = "samuele";
 $dbpass = "";
 $dbport = 3306;
 

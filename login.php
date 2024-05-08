@@ -3,9 +3,10 @@
 require 'connect.php';  //connessione al DB
 
 $nome = $_POST["nome"];           //lettura dati fal form
+$cognome = $_POST["cognome"];           //lettura dati fal form
 $password = $_POST["password"];
 
-$sql="SELECT * FROM utenti WHERE nome='$nome'";
+$sql="SELECT * FROM utenti WHERE nome='$nome' AND cognome='$cognome'";
 
 $result=$conn->query($sql);
 
